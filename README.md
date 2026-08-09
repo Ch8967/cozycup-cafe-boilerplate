@@ -7,7 +7,7 @@ Cozy Cup Cafe is a web-based application that aims to showcase a modern coffee s
 - Menu browsing with categories
 - Online ordering system
 - Contact and location information
-- Responsive design for mobile and desktop
+
 
 # Screen Captures
 
