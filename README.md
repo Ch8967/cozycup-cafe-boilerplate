@@ -9,8 +9,10 @@ Cozy Cup Cafe is a web-based application that aims to showcase a modern coffee s
 - Contact and location information
 - Responsive design for mobile and desktop
 
-## Screen Captures
-<img src="https://i.imgur.com/vA6XEra.png" alt="Menu Screenshot" width="600" />
-<p>this is our menu section, where we showcase different foods.</p>
-
-## Homepage
+# Screen Captures
+<img src="https://i.imgur.com/vA6XEra.png" width="600" />
+<p>This is our menu section, where we showcase different foods.</p>
+<img src= "https://i.imgur.com/N4ELnLm.png" width= "600">
+<p>This is where you will find more information about us</p>
+<img src= "https://i.imgur.com/ZQjv6GF.png" width= "600">
+<p>In this section you will find contacts</p>
