@@ -19,6 +19,11 @@
   --section-x: clamp(24px, 6vw, 90px);
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 220px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -50,7 +55,7 @@ nav {
 }
 
 .logo img {
-  max-width: 120px;
+  max-width: 64px;
 }
 
 nav ul {
@@ -73,7 +78,7 @@ nav a:hover {
 
 .hero {
   text-align: center;
-  padding: 150px 20px;
+  padding: 80px 0px 150px;
   background: url('hero-bg.jpg') center/cover no-repeat;
   color: var(--paper);
 }
@@ -147,6 +152,7 @@ nav a:hover {
 .menu {
   padding: var(--section-x);
   text-align: center;
+  scroll-margin-top: -120px;
 }
 
 .menu h2 {
@@ -228,6 +234,7 @@ nav a:hover {
   text-align: center;
   background: var(--ink);
   color: var(--paper);
+  scroll-margin-top: -150px;
 }
 
 .contact h2 {
@@ -263,5 +270,13 @@ footer {
 
   .menu h2 {
     font-size: 28px;
+  }
+
+  section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
