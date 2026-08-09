@@ -163,10 +163,11 @@ nav a:hover {
 }
 
 .menu-card {
-  background: var(--paper);
+  background: var(--sage-mist);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   padding: 25px;
+  border: 3px dashed var(--ink-soft);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
