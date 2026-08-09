@@ -15,4 +15,4 @@ Cozy Cup Cafe is a web-based application that aims to showcase a modern coffee s
 <img src= "https://i.imgur.com/N4ELnLm.png" width= "600">
 <p>This is where you will find more information about us</p>
 <img src= "https://i.imgur.com/ZQjv6GF.png" width= "600">
-<p>In this section you will find contacts</p>
+<p>In this section you will find our contacts</p>
