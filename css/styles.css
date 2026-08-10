@@ -32,7 +32,7 @@ html {
 
 body {
   font-family: var(--body);
-  background: var(--cream);
+  background: var(--cream); 
   color: var(--ink);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -76,12 +76,61 @@ nav a:hover {
 }
 
 
+
 .hero {
   text-align: center;
-  padding: 80px 0px 150px;
-  background: url('hero-bg.jpg') center/cover no-repeat;
+  padding: 180px 0 200px;
+  min-height: 60vh;
+  background: url("../assets/bg.png") center/cover no-repeat;
   color: var(--paper);
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 0 100px rgba(0,0,0,0.3);
 }
+
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: url("../assets/top_border.png") center top / 100% auto no-repeat;
+  z-index: 2;
+}
+
+
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: url("../assets/bottom_border.png") center bottom / cover no-repeat;
+  z-index: 2;
+}
+
+
+.hero .cup img {
+  position: absolute;
+  top: -100px;        
+  left: -200px;       
+  width: 620px;      
+  height: auto;
+  z-index: 3;
+}
+
+.hero .beans-leaf img {
+  position: absolute;
+  bottom: -100px;     
+  right: -300px;      
+  width: 840px;      
+  height: auto;
+  z-index: 3;
+}
+
 
 .hero h1 {
   font-family: var(--display);
@@ -95,6 +144,7 @@ nav a:hover {
   color: var(--ink-soft);
   font-size: 30px;
   margin-bottom: 40px;
+  text-shadow: 2px 2px 0 var();
 }
 
 .hero h2 {
