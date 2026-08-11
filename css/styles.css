@@ -191,15 +191,22 @@ nav a:hover {
   padding-bottom: 10px;
 }
 
-.menu-card ul {
-  list-style: none;
-  padding: 0;
-}
-
 .menu-card li {
   font-size: 16px;
-  margin: 8px 0;
+  margin: 8px 0;  
   color: var(--ink-soft);
+}
+.menu-category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.menu-category img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
 }
 
 .price {
@@ -247,6 +254,7 @@ nav a:hover {
   font-size: 18px;
   margin-bottom: 40px;
 }
+
 
 /* Footer */
 footer {
